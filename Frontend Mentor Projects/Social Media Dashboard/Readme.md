@@ -28,8 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/Dark Mode.png)
-![](/images/Light Mode.png)
+Dark Mode
+
+![](images/Dark%20Mode.png)
+
+Light Mode
+
+![](images/Light%20Mode.png)
 
 
 ### Links
