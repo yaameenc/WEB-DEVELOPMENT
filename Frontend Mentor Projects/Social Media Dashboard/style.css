@@ -1,0 +1,128 @@
+/* Selecting all elements. Putting padding and margin to be 0. Making box-sizing to be border box will include border and padding when calculating the width and height */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------- */
+
+.fontInter {
+    font-family: "Inter";
+  }
+  .font14px {
+    font-size: 14px;
+  }
+  .font12px {
+    font-size: 12px;
+  }
+  .font56px {
+    font-size: 56px;
+  }
+  .font32px {
+    font-size: 32px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .regular {
+    font-weight: regular;
+  }
+  
+  .rowMT-4 {
+    justify-content: space-between;
+  }
+  .green {
+    color: #1eb589;
+  }
+  .red {
+    color: #dc414c;
+  }
+  .rowCard {
+    background-color: #252b42 !important;
+  }
+  .userName {
+    color: #8c98c6;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+  .spacing5px {
+    letter-spacing: 5px;
+  }
+  .spacing-2px {
+    letter-spacing: 2px;
+  }
+  .upArrowWidth {
+    height: 0.3rem;
+    width: 0.3rem;
+  }
+  #borderTopOne {
+    border-top: 5px solid #178ff5;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .custombg {
+    height: 200px;
+    background: #20222f;
+    border-radius: 15px;
+    z-index: -1;
+  }
+  
+  #borderTopThree:first-child:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, #df4896, #fdc366);
+    top: 0px;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  #borderTopFour {
+    border-top: 5px solid #c4032b;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .lowerCardFirstRow {
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .lowerRightCorner {
+    display: flex;
+    margin-top: 6%;
+    align-items: center;
+  }
+  .ml15 {
+    margin-left: 15%;
+  }
+
+  /* --------------------------------------------------- */
+
+  #body {
+    background-color: #1d1f29;
+  }
+  .colorWhite {
+    color: #ffffff;
+  }
+  .totalFollowers {
+    color: #8c98c6;
+  }
+  .checkBorder {
+    border: 2px solid red;
+  }
+  .navCss {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .navCss2 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
