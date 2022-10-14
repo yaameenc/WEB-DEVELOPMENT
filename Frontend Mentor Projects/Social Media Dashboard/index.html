@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+
+    <title>Social Media Dashboard</title>
+  </head>
+
+  <body id="body">
+    <div class="custombg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <div class="d-flex flex-row justify-content-between">
+            <div>
+              <h1 class="colorWhite mt-4 fontInter navCss">Social Media Dashboard</h1>
+              <span class="totalFollowers fontInter font14px bold">Total Followers: 23,004</span>
+            </div>
+          </div>
+          <div id="hr"></div>
+        </div>
+        <div class="col-lg-2">
+          <div class="d-flex flex-row mt-4 rowMT-4">
+            <span class="totalFollowers fontInter font14px bold mr-2">Dark mode</span>
+            <label class="switch">
+              <input onclick="toggle();" id="toggleCheckBox" type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 d-flex justify-content-center mt-4 mb-4">
+        <div class="col-lg-3">
+          <div onmouseenter="cardColorEnter(0)"  onmouseleave="cardColorLeave(0)"  class="card rowCard  mt-4" id="borderTopOne">
+            <div onmouseover="" class="bg-clr card-body">
+              <div class="row center mt-3">
+                <img src="images/icon-facebook.svg" class="mr-2" alt="image not found" />
+                <span class="bold fontInter font12px userName">@nathanf</span>
+              </div>
+              <div class="row center mt-3">
+                <span class="bold fontInter font56px spacing-2px colorWhite">1987</span>
+              </div>
+              <div class="row center">
+                <span class="regular fontInter font12px userName spacing5px">FOLLOWERS</span>
+              </div>
+              <div class="row center mt-3">
+                <img src="images/icon-up.svg" class="mr-2 mt-1 upArrowWidth" alt="image not found" />
+                <span class="bold fontInter font12px green">12 Today</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div onmouseenter="cardColorEnter(1)"  onmouseleave="cardColorLeave(1)"  class="card rowCard  mt-4" id="borderTopOne">
+              <div class="card-body">
+                <div class="row center mt-3">
+                  <img src="images/icon-twitter.svg" class="mr-2" alt="image not found" />
+                  <span class="bold fontInter font12px userName">@nathanf</span>
+                </div>
+                <div class="row center mt-3">
+                  <span class="bold fontInter font56px spacing-2px colorWhite">1044</span>
+                </div>
+                <div class="row center">
+                  <span class="regular fontInter font12px userName spacing5px">FOLLOWERS</span>
+                </div>
+                <div class="row center mt-3">
+                  <img src="images/icon-up.svg" class="mr-2 mt-1 upArrowWidth" alt="image not found" />
+                  <span class="bold fontInter font12px green">99 Today</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div onmouseenter="cardColorEnter(2)"  onmouseleave="cardColorLeave(2)"  class="card rowCard  mt-4" id="borderTopThree">
+              <div class="card-body">
+                <div class="row center mt-3">
+                  <img src="images/icon-instagram.svg" class="mr-2" alt="image not found" />
+                  <span class="bold fontInter font12px userName">@realnathanf</span>
+                </div>
+                <div class="row center mt-3">
+                  <span class="bold fontInter font56px spacing-2px colorWhite">11k</span>
+                </div>
+                <div class="row center">
+                  <span class="regular fontInter font12px userName spacing5px">FOLLOWERS</span>
+                </div>
+                <div class="row center mt-3">
+                  <img src="images/icon-up.svg" class="mr-2 mt-1 upArrowWidth" alt="image not found" />
+                  <span class="bold fontInter font12px green">1099 Today</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+      
